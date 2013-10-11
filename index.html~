@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width">
+<link rel="stylesheet" href="./css/style.css" />
+<script src="./js/jquery-2.0.3.js"></script>
+<script src="./js/unslider.js"></script>
+<script src="./js/main.js"></script>
+</head>
+
+<body>
+	<div id="nav">
+		<ul>
+			<li><img src="./img/logo.png" /></li>
+			<li>新闻</li>
+			<li>作品</li>
+			<li>收藏</li>
+			<li>访谈</li>
+			<li>校友</li>
+			<li>SUTD专题</li>
+		</ul>
+	</div>
+
+	<div class="banner">
+			<ul>
+				<li style="background-image: url('img/sunset.jpg');">
+					<div class="inner">
+						<h1>The jQuery slider that just slides.</h1>
+						<p>就是这个不到3kb的插件！没有奇特的特效或无用的标签。</p>
+
+						<a class="btn" href="#download">下载</a>
+					</div>
+				</li>
+
+				<li style="background-image: url('img/wood.jpg');">
+					<div class="inner">
+						<h1>Fluid, flexible, fantastically minimal.</h1>
+						<p>Use any HTML in your slides, extend with CSS. You have full control.</p>
+
+						<a class="btn" href="#download">下载</a>
+					</div>
+				</li>
+
+				<li style="background-image: url('img/subway.jpg');">
+					<div class="inner">
+						<h1>开源</h1>
+						<p>Unslider的所有源码都托管在GitHub上。</p>
+
+						<a class="btn" href="//github.com/idiot/unslider">参与</a>
+					</div>
+				</li>
+
+				<li style="background-image: url('img/shop.jpg');">
+					<div class="inner">
+						<h1>Uh, that’s about it.</h1>
+						<p>I just wanted to show you another slide.</p>
+
+						<a class="btn" href="#download">下载</a>
+					</div>
+				</li>
+			</ul>
+		</div>
+</div>
+
+
+</body>
+</html>
