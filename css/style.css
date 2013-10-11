@@ -59,3 +59,31 @@ body {
 #first{
 	margin-left: 210px;
 }
+.middle{
+	background-color: #7F2B20;
+	top:510px;
+	height: 60px;
+	width: 100%;
+	position: absolute;
+	box-shadow: 4px 4px 3px #888888;
+}
+.middle ul{
+	list-style:none;
+	padding-left: 10%;
+}
+.middle li{
+	float: left;
+	padding: 20px 8%;
+	margin: 0 4%;
+	font-size: 20px;
+	color:#FFFFFF;
+}
+#middle1:hover{
+	background:#19C93A;
+}
+#middle2:hover{
+	background:#FF9742;
+}
+#middle3:hover{
+	background:#19B9F9;
+}
