@@ -5,9 +5,8 @@
 body {
 	background-color: #F4F4F4;
 }
-
 .nav{
-	height: 60px;
+	height: 4em;
 	width:100%;
 	background-color: #282828;
 	vertical-align:middle;
@@ -22,8 +21,8 @@ body {
 .nav li{
 	float:left;
 	color:#FFFFFF;
-	padding: 20px 60px;
-	font-size: 20px;
+	padding: 1.5% 4.5%;
+	font-size: 1.3em;
 }
 .nav li:hover{
 	background:#414141;
@@ -31,7 +30,7 @@ body {
 .drop{
 	display: none;
 	position: absolute;
-	height: 150px;
+	height: 25%;
 	width: 100%;
 	background-color: #444444;
 	box-shadow: 4px 4px 3px #888888;
@@ -39,15 +38,19 @@ body {
 }
 .drop ul{
 	float:left;
-	margin-left: 50px;
-	padding: 5px 25px 5px;
+	margin-left: 4%;
+	padding: 0.6em 1.6em 0.6em;
+}
+.drop ul:first-child{
+	margin-left: 15%;
 }
 .drop li{
 	vertical-align:middle;
 	color:#EDEDED;
-	font-size: 18px;
-	padding: 10px 0 10px;
+	font-size: 1.1em;
+	padding: 0.5em 0 0.5em;
 }
+
 .slider ul{
 	list-style: none;
 }
@@ -56,13 +59,11 @@ body {
 	display:none;
 	position: absolute;
 }
-#first{
-	margin-left: 210px;
-}
+
 .middle{
 	background-color: #7F2B20;
-	top:480px;
-	height: 60px;
+	top: 75%;
+	height: 10%;
 	width: 100%;
 	position: absolute;
 	box-shadow: 4px 4px 3px #888888;
@@ -73,9 +74,9 @@ body {
 }
 .middle li{
 	float: left;
-	padding: 20px 8%;
+	padding: 1.1em 5em;
 	margin: 0 4%;
-	font-size: 20px;
+	font-size: 1.2em;
 	color:#EEEEEE;
 }
 #middle1:hover{
@@ -87,52 +88,28 @@ body {
 #middle3:hover{
 	background:#19B9F9;
 }
+
 .watchroom {
-	background-image: url(../img/watchback.png);
+	background-color: #EDEDED;
 	top:85%;
 	height: 82%;
 	width: 100%;
 	position: absolute;
 	box-shadow: 4px 4px 3px #888888;
-	z-index: -10;
+	z-index: 0;
 }
 .watchroom *{
 	position: absolute;
-}
-.exhibition {
-	background-color: #FFE1C8;
-	padding: 0px;
-	margin: 0px;
-	top:160%;
-	height: 70%;
-	width: 100%;
-	position: absolute;
-	box-shadow: 4px 4px 3px #888888;
-}
-.museum {
-	background-color: #01A48A;
-	top:250%;
-	height: 70%;
-	width: 100%;
-	position: absolute;
-	box-shadow: 4px 4px 3px #888888;
-}
-.bottom{
-	margin-top: 30px;
-	top:300%;
-	width: 100%;
-	position: absolute;
-	text-align:center;
-
 }
 #watch1{
 	top:3%;
 	left: 6%;
 	width:30%;
 	height:42%;
+	z-index: -10;
 }
 #cover1{
-	top:30%;
+	top:45%;
 	left:6%;
 	height:20%;
 	width:30%;
@@ -141,17 +118,16 @@ body {
 	opacity: 0.75;
 	color: #FFFFFF;
 	display: none;
+	z-index: -5;
+	font-size: 1.1em;
 }
 #cover1 b{
-	margin: 48px 0px 0px;
-	padding-left: 15px;
-	font-size: 18px;
+	margin-top: 1.5em;
+	padding-left: 1em;
 }
 #cover1 p{
-	margin: 55px 0px 0px;
-	padding: 22px 0px 0px 15px;
-	opacity: 1;
-	font-size: 18px;
+	margin-top: 3em;
+	padding: 1.2em 0 0 1em;
 }
 
 #watch2{
@@ -186,3 +162,27 @@ body {
 	height:86%;
 }
 
+
+.exhibition {
+	background-color: #F6F6F6;
+	top:160%;
+	height: 70%;
+	width: 100%;
+	position: absolute;
+	box-shadow: 4px 4px 3px #888888;
+}
+.museum {
+	background-color: #EDEDED;
+	top:230%;
+	height: 70%;
+	width: 100%;
+	position: absolute;
+	box-shadow: 4px 4px 3px #888888;
+}
+.bottom{
+	margin-top: 2em;
+	top:300%;
+	width: 100%;
+	position: absolute;
+	text-align:center;
+}
