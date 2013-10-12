@@ -58,7 +58,7 @@ body {
 .drop ul{
 	float:left;
 	margin-left: 4%;
-	padding: 0.6em 1.6em 0.6em;
+	padding: 0.6em 1.3em 0.6em;
 }
 .drop ul:first-child{
 	margin-left: 15%;
@@ -318,6 +318,6 @@ body {
 	width: 100%;
 	position: absolute;
 	text-align:center;
-	font-size: 1.2em;
+	font-size: 1.1em;
 	color: #DEDEDE;
 }
