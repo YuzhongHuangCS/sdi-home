@@ -1,10 +1,10 @@
 $(document).ready(function(){
 	$(".nav").mouseenter(function(){
-   		$(".drop").slideDown(900);
+   		$(".drop").slideDown(1000);
   	});
 
 	$(".drop").mouseleave(function(){
-    	$(".drop").slideUp(900);
+    	$(".drop").slideUp(1000);
   	});
   	var w=window.innerWidth;
   	var h=window.innerHeight;
@@ -66,10 +66,10 @@ $(document).ready(function(){
 
 	//watchroom animation start
 
-	$("#watch1").mouseenter(function(){
-  		$("#cover1").show().animate({top:'-=24%'},400).delay(50).animate({top:'+=4%'},100);
+	$(".merge1").mouseenter(function(){
+  		$("#cover1").show().animate({top:'-=50%'},400).delay(50).animate({top:'+=5%'},100);
   	});
-  	$("#cover1").mouseleave(function(){
-  		$("#cover1").animate({top:'+=20%'},500).hide(100);
+  	$(".merge1").mouseleave(function(){
+  		$("#cover1").animate({top:'+=45%'},400).hide(100);
   	});
 });
