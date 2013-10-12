@@ -20,9 +20,12 @@ $(document).ready(function(){
 	//banner animation start
 
 	$("#img1").show(1000);//img1 enter view
-	
+	setTimeout(function(){
+		$("#float1").animate({left:'10%'},400)
+	},1500);//float1 enter view
 	setTimeout(function(){
 		$("#img1").animate({left:-w},500);
+		$("#float1").animate({left:-w},500);
 		$("#img6").hide().css({"left":w});
 	},5000);//img1 leave view
 	setTimeout(function(){
@@ -36,12 +39,19 @@ $(document).ready(function(){
 		$("#img3").show().animate({left:'0'},500)
 	},7800);//img3 enter view
 	setTimeout(function(){
+		$("#float3").animate({left:'10%'},400);
+	},8400)
+	setTimeout(function(){
 		$("#img3").animate({left:-w},500)
+		$("#float3").animate({left:-w},500)
 		$("#img2").hide().css({"left":w});
 	},11000);//img3 leave view
 	setTimeout(function(){
 		$("#img4").show().animate({left:'0'},500)
 	},10800);//img4 enter view
+	setTimeout(function(){
+		$("#float4").animate({left:'-20%'},2000)
+	},11100)//float enter and leave
 	setTimeout(function(){
 		$("#img4").animate({left:-w},500)
 		$("#img3").hide().css({"left":w});

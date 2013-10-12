@@ -80,7 +80,24 @@ body {
 	display:none;
 	position: absolute;
 }
-
+#float1{
+	position: absolute;
+	left:100%;
+	top:22%;
+	z-index: 10;
+}
+#float3{
+	position: absolute;
+	top:35%;
+	left:100%;
+	z-index: 10;
+}
+#float4{
+	position: absolute;
+	top:60%;
+	left:100%;
+	z-index: 10;
+}
 .middle{
 	background-color: #7F2B20;
 	bottom: 0;
