@@ -13,7 +13,7 @@ body {
 	position: fixed;
 }
 #line{
-	top:15%;
+	top:4.5em;
 	width: 90%;
 	left: 5%;
 	background-color: #CCCCCC;
@@ -23,10 +23,12 @@ body {
 	margin: 1em 0 1em 6%;
 	font-size: 2em;
 	color: #FFFFFF;
+	border-bottom: 0.1em solid #CCCCCC;
 }
 .nav{
 	height: 4em;
 	width:100%;
+	cursor:pointer;
 	background-color: #282828;
 	vertical-align:middle;
 	box-shadow: 4px 4px 3px #888888;
@@ -47,13 +49,14 @@ body {
 	background:#414141;
 }
 .drop{
-	display: none;
-	position: absolute;
 	height: 25%;
 	width: 100%;
-	background-color: #444444;
+	cursor:pointer;
 	z-index: 10;
+	position: absolute;
+	background-color: #444444;
 	box-shadow: 4px 4px 3px #888888;
+	display: none;
 }
 .drop ul{
 	float:left;
@@ -99,12 +102,13 @@ body {
 	z-index: 10;
 }
 .middle{
-	background-color: #7F2B20;
 	bottom: 0;
 	height: 10%;
 	width: 100%;
 	position: absolute;
+	cursor:pointer;
 	z-index: 10;
+	background-color: #7F2B20;
 	box-shadow: 5px 5px 4px #888888;
 }
 .middle ul{
