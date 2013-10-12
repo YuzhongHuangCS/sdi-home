@@ -6,9 +6,9 @@ $(document).ready(function(){
 	$(".drop").mouseleave(function(){
     	$(".drop").slideUp(1000);
   	});
-  	var w=window.innerWidth;
+  	var w=document.body.clientWidth;
   	var h=window.innerHeight;
-  	var hslider=h*0.65;
+  	var hslider=h*0.8;
 	$(".sliderimg").width(w).height(hslider);
 	$("#img2").css({"left":"100%","top":"4em"});
 	$("#img3").css({"left":"100%","top":"4em"});
@@ -56,13 +56,14 @@ $(document).ready(function(){
 	setTimeout(function(){
 		$("#img6").show().animate({left:'0'},500)
 	},16800);//img6 enter view
-	setTimeout(function(){
+	/*setTimeout(function(){
 		$("#img6").animate({left:-w},500);
 		$("#img5").hide().css({"left":w});
 	},20000)//img6 leave view
 	setTimeout(function(){
 		$("#img6").show().animate({left:'0'},500)
 	},19800);//img1 enter view
+	*/
 
 	//watchroom animation start
 
