@@ -195,4 +195,9 @@ $(document).ready(function(){
   	$(".museum .merge6").mouseleave(function(){
   		$(".museum .cover6").slideUp(400);
   	});
+
+  	//refresh
+  	setTimeout(function(){
+		history.go(0)
+ 	},20000); 
 });

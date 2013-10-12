@@ -13,7 +13,7 @@ body {
 	position: fixed;
 }
 #line{
-	top:4.5em;
+	top:5em;
 	width: 90%;
 	left: 5%;
 	background-color: #CCCCCC;
@@ -110,6 +110,7 @@ body {
 	z-index: 10;
 	background-color: #7F2B20;
 	box-shadow: 5px 5px 4px #888888;
+	position:fixed;
 }
 .middle ul{
 	list-style:none;
@@ -334,9 +335,9 @@ body {
 	z-index: 0;
 }
 #bottom{
-	margin-top: 2em;
 	top:380%;
 	width: 100%;
+	padding-bottom: 8%;
 	position: absolute;
 	text-align:center;
 	font-size: 1.1em;
