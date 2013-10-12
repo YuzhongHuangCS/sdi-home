@@ -26,14 +26,14 @@ $(document).ready(function(){
 	setTimeout(function(){
 		$("#img1").animate({left:-w},500);
 		$("#float1").animate({left:-w},500);
-		$("#img6").hide().css({"left":w});
+	//	$("#img6").hide().css({"left":w});
 	},5000);//img1 leave view
 	setTimeout(function(){
 		$("#img2").show().animate({left:'0'},500);
 	},4800);//img2 enter view
 	setTimeout(function(){
 		$("#img2").animate({left:-w},500);
-		$("#img1").hide().css({"left":w});
+	//	$("#img1").hide().css({"left":w});
 	},8000);//img2 leave view
 	setTimeout(function(){
 		$("#img3").show().animate({left:'0'},500)
@@ -44,7 +44,7 @@ $(document).ready(function(){
 	setTimeout(function(){
 		$("#img3").animate({left:-w},500)
 		$("#float3").animate({left:-w},500)
-		$("#img2").hide().css({"left":w});
+	//	$("#img2").hide().css({"left":w});
 	},11000);//img3 leave view
 	setTimeout(function(){
 		$("#img4").show().animate({left:'0'},500)
@@ -54,27 +54,30 @@ $(document).ready(function(){
 	},11100)//float enter and leave
 	setTimeout(function(){
 		$("#img4").animate({left:-w},500)
-		$("#img3").hide().css({"left":w});
+	//	$("#img3").hide().css({"left":w});
 	},14000);//img4 leave view
 	setTimeout(function(){
 		$("#img5").show().animate({left:'0'},500)
 	},13800);//img5 enter view
 	setTimeout(function(){
 		$("#img5").animate({left:-w},500);
-		$("#img4").hide().css({"left":w});
+	//	$("#img4").hide().css({"left":w});
 	},17000);//img5 leave view
 	setTimeout(function(){
 		$("#img6").show().animate({left:'0'},500)
 	},16800);//img6 enter view
-	/*setTimeout(function(){
-		$("#img6").animate({left:-w},500);
-		$("#img5").hide().css({"left":w});
-	},20000)//img6 leave view
-	setTimeout(function(){
-		$("#img6").show().animate({left:'0'},500)
-	},19800);//img1 enter view
-	*/
 
+
+	//middle click animation start
+	$("#middle1").click(function(){
+		$("html").animate({scrollTop: h}, 800);
+	});
+	$("#middle2").click(function(){
+		$("html").animate({scrollTop: 1.9*h}, 1000);
+	});
+	$("#middle3").click(function(){
+		$("html").animate({scrollTop: 2.82*h}, 1200);
+	});
 	//watchroom animation start
 
 	$(".merge1").mouseenter(function(){

@@ -19,7 +19,7 @@ body {
 	background-color: #CCCCCC;
 	height: 0.2em;
 }
-#title{
+.title{
 	margin: 1em 0 1em 6%;
 	font-size: 2em;
 	color: #FFFFFF;
@@ -333,7 +333,7 @@ body {
 	position: absolute;
 	z-index: 0;
 }
-.bottom{
+#bottom{
 	margin-top: 2em;
 	top:380%;
 	width: 100%;
