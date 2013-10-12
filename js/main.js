@@ -68,9 +68,41 @@ $(document).ready(function(){
 	//watchroom animation start
 
 	$(".merge1").mouseenter(function(){
-  		$("#cover1").show().animate({top:'-=50%'},400).delay(50).animate({top:'+=5%'},100);
+  		$(".cover1").show().animate({top:'-=50%'},400).delay(50).animate({top:'+=5%'},100);
   	});
   	$(".merge1").mouseleave(function(){
-  		$("#cover1").animate({top:'+=45%'},400).hide(100);
+  		$(".cover1").animate({top:'+=45%'},400).hide(100);
+  	});
+
+  	$(".merge2").mouseenter(function(){
+  		$(".cover2").slideDown(400);
+  	});
+  	$(".merge2").mouseleave(function(){
+  		$(".cover2").slideUp(400);
+  	});
+
+  	$(".merge3").mouseenter(function(){
+  		$(".cover3").slideDown(400);
+  	});
+  	$(".merge3").mouseleave(function(){
+  		$(".cover3").slideUp(400);
+  	});
+  	$(".merge4").mouseenter(function(){
+  		$(".cover4").show(500);
+  	});
+  	$(".merge4").mouseleave(function(){
+  		$(".cover4").hide(500);
+  	});
+  	$(".merge5").mouseenter(function(){
+  		$(".cover5").show().animate({left:'10%'},400).delay(50).animate({left:'0%'},100);
+  	});
+  	$(".merge5").mouseleave(function(){
+  		$(".cover5").animate({left:'-105%'},400).hide(50);
+  	});
+  	$(".merge6").mouseenter(function(){
+  		$(".cover6").slideDown(400);
+  	});
+  	$(".merge6").mouseleave(function(){
+  		$(".cover6").slideUp(400);
   	});
 });
