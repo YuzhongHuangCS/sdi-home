@@ -1,14 +1,20 @@
 $(document).ready(function(){
 	$(".nav").mouseenter(function(){
-   		$(".drop").slideDown(1000);
-  	});
-
+        $(".drop").slideDown(1000);
+    });
 	$(".drop").mouseleave(function(){
-    	$(".drop").slideUp(1000);
-  	});
-  $(".nav ul").click(function(){
-    window.location.href="list.html";
-  });
+        $(".drop").slideUp(1000);
+    });
+
+    $(".nav li").click(function(){
+        window.location.href="list.html";
+    });
+    $(".nav li:first-child").click(function(){
+        window.location.href="index.html";
+    });
+    $(".drop li").click(function(){
+        window.location.href="list.html";
+    });
   	var w=document.body.clientWidth;
   	var h=window.innerHeight;
   	var hslider=h*0.8;
@@ -81,6 +87,20 @@ $(document).ready(function(){
 	$("#middle3").click(function(){
 		$("html").animate({scrollTop: 2.82*h}, 1200);
 	});
+      //gotop animation
+  $(window).scroll(function(){
+    if($(document).scrollTop()<=h*0.3){
+          $("#gotop").hide(100);
+      }
+      else{
+          $("#gotop").show(100);
+      }
+    });
+
+    $("#gotop").click(function(){
+    $("html").animate({scrollTop: 0}, 800);
+  });
+    //go top end
 	//watchroom animation start
 
 	$(".watchroom .merge1").mouseenter(function(){

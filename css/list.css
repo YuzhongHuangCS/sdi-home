@@ -13,7 +13,7 @@ body {
 	position: fixed;
 }
 #line{
-	top:10em;
+	top:9.2em;
 	width: 90%;
 	left: 5%;
 	background-color: #CCCCCC;
@@ -21,7 +21,7 @@ body {
 	position: absolute;
 }
 .title{
-	margin: 3.72em 0 1em 6%;
+	margin: 3.2em 0 1em 6%;
 	font-size: 2em;
 	color: #FFFFFF;
 	border-bottom: 0.1em solid #CCCCCC;
@@ -79,7 +79,7 @@ body {
 	padding: 0.5em 0 0.5em;
 }
 .article{
-	top: 22%;
+	top: 20%;
 	height: 280%;
 	width: 60%;
 	left:8%;
@@ -91,8 +91,8 @@ body {
 	margin: 8% 0;
 	padding: 12% 10% 0 18%;
 	width: 73%;
-	height: 20%;
-	color: #555555;
+	height: 22%;
+	color: #444444;
 	font-size:1.2em;
 	border-radius:0.8em;
 	box-shadow: 8px 8px 6px #444444;
@@ -102,17 +102,16 @@ body {
 	left: 10%;
 	top: 8%;
 	position: absolute;
-	z-index: 40;
 	color: #000000;
 	cursor:pointer;
 }
 .time{
-	margin-top: 2em;
+	margin-top: 1.8em;
 	color: #BBBEC3;
 }
 .continue{
 	right: 10%;
-	margin-top: -1.2em;
+	margin-top: -1.5em;
 	color: #BBBEC3;
 	cursor:pointer;
 	position: absolute;
@@ -122,7 +121,7 @@ body {
 	height: 130%;
 	width: 20%;
 	left: 72%;
-	background-color: #BABABA;
+	background-color: #EEEEEE;
 	position: absolute;
 	border-radius:0.8em;
 	opacity: 0.4;
@@ -162,8 +161,23 @@ body {
 	position: absolute;
 	list-style: none;
 }
+#gotop{
+    bottom: 10%;
+    left: 85%;
+    height: 3em;
+    width:3em;
+    background: url(../img/gotop.png) no-repeat 0 -260px;
+    cursor: pointer;
+    overflow: hidden;
+    position: fixed;
+    border-radius:0.6em;
+    display:none;
+}
+#gotop:hover{
+    background-position:-47px -260px;
+}
 .bottom{
-	top:438%;
+	top:465%;
 	width: 100%;
 	padding-bottom: 3%;
 	position: absolute;

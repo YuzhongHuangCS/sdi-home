@@ -334,6 +334,22 @@ body {
 	position: absolute;
 	z-index: 0;
 }
+#gotop{
+    bottom: 1%;
+    left: 91.5%;
+    height: 3em;
+    width:3em;
+    background: url(../img/gotop.png) no-repeat 0 -260px;
+    cursor: pointer;
+    overflow: hidden;
+    position: fixed;
+    border-radius:0.6em;
+    display:none;
+    z-index: 50;
+}
+#gotop:hover{
+    background-position:-47px -260px;
+}
 .bottom{
 	top:380%;
 	width: 100%;
