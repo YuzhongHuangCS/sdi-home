@@ -334,7 +334,7 @@ body {
 	position: absolute;
 	z-index: 0;
 }
-#bottom{
+.bottom{
 	top:380%;
 	width: 100%;
 	padding-bottom: 8%;

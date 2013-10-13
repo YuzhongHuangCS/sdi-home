@@ -6,6 +6,9 @@ $(document).ready(function(){
 	$(".drop").mouseleave(function(){
     	$(".drop").slideUp(1000);
   	});
+  $(".nav ul").click(function(){
+    window.location.href="list.html";
+  });
   	var w=document.body.clientWidth;
   	var h=window.innerHeight;
   	var hslider=h*0.8;

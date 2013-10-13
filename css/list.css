@@ -82,7 +82,7 @@ body {
 	top: 22%;
 	height: 280%;
 	width: 60%;
-	left:11%;
+	left:8%;
 	position: absolute;
 }
 .post{
@@ -117,7 +117,52 @@ body {
 	cursor:pointer;
 	position: absolute;
 }
-#bottom{
+.right{
+	top: 32%;
+	height: 130%;
+	width: 20%;
+	left: 72%;
+	background-color: #BABABA;
+	position: absolute;
+	border-radius:0.8em;
+	opacity: 0.4;
+	box-shadow: 8px 8px 6px #111111;
+}
+.right input{
+	top: 2em;
+	height: 2em;
+	left: 1em;
+	position: absolute; 
+}
+.rss{
+	top:5em;
+	left: 1.4em;
+	position: absolute;
+	font-size: 1.2em;
+	cursor:pointer;
+}
+.recentPost{
+	top:8em;
+	left: 1em;
+	position: absolute;
+	list-style: none;
+}
+.right li{
+	margin-top: 1em;
+	margin-left: 0.6em;
+	font-size: 1.1em;
+	border-bottom: 0.1em solid #DCDCDC;
+	cursor:pointer;	
+	color: #000000;
+	opacity: 1;
+}
+.recentComment{
+	top:25em;
+	left: 1em;
+	position: absolute;
+	list-style: none;
+}
+.bottom{
 	top:438%;
 	width: 100%;
 	padding-bottom: 3%;
