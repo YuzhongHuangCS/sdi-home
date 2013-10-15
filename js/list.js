@@ -42,7 +42,7 @@ $(document).ready(function(){
     });
 
     $("#gotop").click(function(){
-		$("html").animate({scrollTop: 0}, 800);
+		$("html,body").animate({scrollTop: 0}, 800);
 	});
     //go top end
 

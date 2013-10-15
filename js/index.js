@@ -79,13 +79,13 @@ $(document).ready(function(){
 
 	//middle click animation start
 	$("#middle1").click(function(){
-		$("html").animate({scrollTop: h}, 800);
+		$("html,body").animate({scrollTop: h}, 800);
 	});
 	$("#middle2").click(function(){
-		$("html").animate({scrollTop: 1.9*h}, 1000);
+		$("html,body").animate({scrollTop: 1.9*h}, 1000);
 	});
 	$("#middle3").click(function(){
-		$("html").animate({scrollTop: 2.82*h}, 1200);
+		$("html,body").animate({scrollTop: 2.82*h}, 1200);
 	});
       //gotop animation
   $(window).scroll(function(){
@@ -98,7 +98,7 @@ $(document).ready(function(){
     });
 
     $("#gotop").click(function(){
-    $("html").animate({scrollTop: 0}, 800);
+    $("html,body").animate({scrollTop: 0}, 800);
   });
     //go top end
 	//watchroom animation start
